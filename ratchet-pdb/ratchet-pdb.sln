@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ratchet-pdb", "ratchet-pdb\ratchet-pdb\ratchet-pdb.csproj", "{F6DEE5F2-1E30-435D-A15A-B25FF038B762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{124CB322-760A-47D8-BD02-97DB824631DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdbDump", "Samples\PdbDump\PdbDump.csproj", "{8E449AF1-3F76-4A5F-9F0F-ED762AA74CD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6DEE5F2-1E30-435D-A15A-B25FF038B762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DEE5F2-1E30-435D-A15A-B25FF038B762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DEE5F2-1E30-435D-A15A-B25FF038B762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DEE5F2-1E30-435D-A15A-B25FF038B762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E449AF1-3F76-4A5F-9F0F-ED762AA74CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E449AF1-3F76-4A5F-9F0F-ED762AA74CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E449AF1-3F76-4A5F-9F0F-ED762AA74CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E449AF1-3F76-4A5F-9F0F-ED762AA74CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E449AF1-3F76-4A5F-9F0F-ED762AA74CD8} = {124CB322-760A-47D8-BD02-97DB824631DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A80BFE31-35B6-40D5-B5ED-CF43718C076B}
+	EndGlobalSection
+EndGlobal
